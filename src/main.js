@@ -3,12 +3,15 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+//引入elementui
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import $ from 'jquery'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.min'
 //引入echarts
-import echarts from 'echarts'
-Vue.prototype.$echarts = echarts
+// import echarts from 'echarts'
+// Vue.prototype.$echarts = echarts
 Vue.use(ElementUI)
 Vue.config.productionTip = false
 
