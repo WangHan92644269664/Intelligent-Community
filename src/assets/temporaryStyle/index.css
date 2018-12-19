@@ -1,0 +1,195 @@
+.li-one {
+    background: url('../../images/common/leftNav/anfang2.png') no-repeat;
+}
+
+.active1 a {
+    color: #0079ff !important;
+}
+
+.right-content {
+    width: calc(100% - 120px);
+    height: calc(100% - 70px);
+    background: #1f1f3b;
+    float: left;
+    padding: 40px;
+}
+
+
+/* tab切换 */
+
+.tabChange {
+    width: 100%;
+    height: 50px;
+}
+
+.tabChange #tab {
+    width: auto;
+    height: 50px;
+}
+
+.tabChange #tab li {
+    float: left;
+    width: 160px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border: 2px solid #2d2d47;
+    border-bottom: none;
+    height: 50px;
+    /* line-height: 50px; */
+    cursor: pointer;
+    color: #d3d2fe;
+}
+
+.tabChange #tab li span {
+    line-height: 50px;
+    display: inline-block;
+    height: 46px;
+}
+
+.tabChange #tab li span:hover {
+    border-bottom: 2px solid #0076fe;
+}
+
+.tabChange #tab li:hover {
+    background: #2f2f49;
+    color: #0083ff;
+}
+
+#tabCon {
+    height: calc(100% - 38px);
+}
+
+.tabli {
+    color: #0083ff !important;
+    font-weight: 600;
+    background: #2f2f49;
+}
+
+.tab-span {
+    border-bottom: 2px solid #0076fe;
+}
+
+.change-div {
+    height: 100%;
+}
+
+#myTabContent {
+    /* width:calc(100% - 200px); */
+    height: calc(100% - 50px);
+}
+
+.tab-pane {
+    width: 100%;
+    height: 100%;
+}
+
+.iframe {
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+
+/* 车辆识别门禁css */
+
+.car {
+    background: #2f2f49;
+}
+
+.common-content {
+    height: 100%;
+    border-right: 2px solid #1f1f3b;
+}
+
+.car-monitoring {
+    margin: 0 auto;
+    text-align: center;
+    height: 100px;
+}
+
+.car-monitoring .car-title {
+    color: #fff;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    padding: 35px 40px;
+    font-size: 18px;
+    background: url('../../images/index/title_bg.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.car-main {
+    height: calc(100% - 100px);
+}
+
+.lg-car {
+    margin: 10px;
+    height: 60%;
+    text-align: center;
+    background: url('../../images/index/datu.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.lg-car img {
+    width: 98%;
+    height: 96%;
+    margin: 10px;
+}
+
+.small-car-div {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    background: url('../../images/index/xiaotu.png') no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+}
+
+.small-car-con {
+    height: 40%;
+    /* margin: 20px; */
+}
+
+.small-car-div {
+    height: 70%;
+    width: 95%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.small-car-div img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.small-car-div p {
+    color: #fff;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.car-chart-con {
+    height: 30%;
+}
+
+.car-chart-main {
+    height: 100%;
+    border-bottom: 2px solid #1f1f3b;
+}
+
+.car-chart1 {
+    border-right: 2px solid #1f1f3b;
+}
+
+.car-chart-1,
+.car-chart-2 {
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+}
