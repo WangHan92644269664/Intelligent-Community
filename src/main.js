@@ -3,10 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+//引入elementui
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
-
 Vue.use(ElementUI)
+//引入iconfont图标
+import './assets/styles/iconfont/iconfont.css'
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
