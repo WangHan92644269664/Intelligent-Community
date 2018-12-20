@@ -9,7 +9,7 @@
         background-color="#273B56"
         text-color="#fff"
         active-text-color="#fff" router>
-        <el-menu-item index="/index"><i class="iconfont icon-guohui"></i> 智慧街道云平台</el-menu-item>
+        <el-menu-item index="/index" ><i class="iconfont icon-guohui"></i> 智慧街道云平台</el-menu-item>
         <el-menu-item index="/gis" class="left">GIS</el-menu-item>
         <el-menu-item index="/data">大数据</el-menu-item>
         <el-menu-item index="/terminal">智能终端</el-menu-item>
