@@ -10,8 +10,8 @@ import $ from 'jquery'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min'
 //引入echarts
-// import echarts from 'echarts'
-// Vue.prototype.$echarts = echarts
+import echarts from 'echarts'
+Vue.prototype.$echarts = echarts
 Vue.use(ElementUI)
 Vue.config.productionTip = false
 

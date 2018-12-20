@@ -6,11 +6,16 @@ import ProvertyPeople from '../pages/ZhengWu/Poverty/PovertyPeople'
 import Working from '../pages/Working/Working'
 import WorkingPlan from '../pages/Working/Plan/PlanMy'
 import WorkingNoticeMange from '../pages/Working/Notice/NoticeMange'
+import Data from '../pages/Data/Data'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
+    {
+      path:'/data',
+      component:Data
+    },
     {
       path:'/zhengwu',
       component:ZhengWu,
