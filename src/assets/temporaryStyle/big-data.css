@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    background: url('../../assets/images/data/bg.png') no-repeat;
+    background-size: 100% 100%;
+    padding: 20px 60px;
+}
+
+.data-main {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.data-left,
+.data-middle,
+.data-right {
+    height: 100%;
+    float: left;
+}
+
+.data-left {}
+
+.back-to-index {
+    background: #0b1a41;
+    border-radius: 3px;
+    border: 1px solid #07455e;
+    padding: 6px 20px;
+    color: #bfbec3;
+    font-size: 14px;
+    outline: none;
+}
+
+.back-to-index img {
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.data-chart-1,
+.data-chart-2,
+.data-chart-4,
+.data-chart-5 {
+    width: 80%;
+}
+
+.data-chart-4,
+.data-chart-5 {
+    margin-left: 20%;
+}
+
+.data-chart {
+    height: 200px;
+}
+
+.data-chart-3 {
+    width: 100%;
+}
+
+.data-chart-1,
+.data-chart-4 {
+    background: url('../../assets/images/data/top.png') no-repeat;
+    background-size: 100% 100%;
+    margin-top: 60px;
+}
+
+.data-chart-2,
+.data-chart-5 {
+    background: url('../../assets/images/data/middle.png') no-repeat;
+    background-size: 100% 100%;
+    margin-top: 20px;
+}
+
+.data-chart-3,
+.data-chart-6 {
+    background: url('../../assets/images/data/middle.png') no-repeat;
+    background-size: 100% 100%;
+    margin-top: 20px;
+}
+
+.data-middle h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.data-people {
+    width: 80%;
+    margin: 40px auto 0;
+    height: 10%;
+}
+
+.data-people p {
+    color: #fff;
+}
+
+.data-people h3 {
+    color: #02a8fe;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.data-people h3 span {
+    font-size: 14px;
+}
+
+.data-img {
+    margin-top: 40px;
+    width: 100%;
+    height: 60%;
+}
+
+.data-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.data-right p {
+    padding-left: 60px;
+}
+
+.data-right p span {
+    color: #0189ff;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.middle-chart {
+    height: 16%;
+}
+
+.middle-chart .col-xs-3 {
+    height: 100%;
+}
+
+.m-common-chart {
+    width: 100%;
+    height: 100%;
+}
+
+.absole {
+    width: 55%;
+    height: 20%;
+    margin: 10% auto;
+    position: absolute;
+    margin-left: 20%;
+}
+
+.absole .chart1 {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.absole .chart2 {
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}

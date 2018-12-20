@@ -6,10 +6,13 @@ import router from './router'
 //引入elementui
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
+import $ from 'jquery'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.min'
+//引入echarts
+// import echarts from 'echarts'
+// Vue.prototype.$echarts = echarts
 Vue.use(ElementUI)
-//引入iconfont图标
-import './assets/styles/iconfont/iconfont.css'
-
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
