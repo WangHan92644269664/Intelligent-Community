@@ -4,30 +4,33 @@
     <el-submenu index="1">
       <template slot="title"><i class="iconfont icon-home"></i>综治组织</template>
       <el-menu-item-group>
-        <el-menu-item index="2-1">综治机构</el-menu-item>
-        <el-menu-item index="2-2">群防群治组织</el-menu-item>
-        <el-menu-item index="2-3">网络队伍</el-menu-item>
+        <el-menu-item index="/zongzhi/organ/institution">综治机构</el-menu-item>
+        <el-menu-item index="#1">群防群治组织</el-menu-item>
+        <el-menu-item index="#2">网络队伍</el-menu-item>
       </el-menu-item-group>
     </el-submenu>
     <el-submenu index="2">
       <template slot="title"><i class="iconfont icon-home"></i>综治视联网信息中心</template>
       <el-menu-item-group>
-        <el-menu-item index="2-1">综治视联网信息中心1</el-menu-item>
-        <el-menu-item index="2-2">综治视联网信息中心2</el-menu-item>
+        <el-menu-item index="21">综治视联网信息中心1</el-menu-item>
+        <el-menu-item index="22">综治视联网信息中心2</el-menu-item>
       </el-menu-item-group>
     </el-submenu>
-    <el-submenu index="2">
+    <el-submenu index="3">
       <template slot="title"><i class="iconfont icon-home"></i>特殊人群</template>
       <el-menu-item-group>
-        <el-menu-item index="2-1">特殊人群1</el-menu-item>
-        <el-menu-item index="2-2">特殊人群2</el-menu-item>
+        <el-menu-item index="/zongzhi/special/release">刑满释放人员</el-menu-item>
+        <el-menu-item index="222">社区矫正人员</el-menu-item>
+        <el-menu-item index="223">吸毒人员</el-menu-item>
+        <el-menu-item index="334">精神病人员</el-menu-item>
+        <el-menu-item index="224">艾滋病危险人员</el-menu-item>
       </el-menu-item-group>
     </el-submenu>
-    <el-submenu index="2">
+    <el-submenu index="4">
       <template slot="title"><i class="iconfont icon-home"></i>重点青少年</template>
       <el-menu-item-group>
-        <el-menu-item index="2-1">重点青少年1</el-menu-item>
-        <el-menu-item index="2-2">重点青少年2</el-menu-item>
+        <el-menu-item index="41">重点青少年1</el-menu-item>
+        <el-menu-item index="42">重点青少年2</el-menu-item>
       </el-menu-item-group>
     </el-submenu>
     <el-submenu index="2">

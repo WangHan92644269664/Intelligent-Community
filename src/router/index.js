@@ -13,6 +13,8 @@ import Organization from '../pages/DangJian/Activity/Three/Organization'
 import BuildingPeople from '../pages/DangJian/Building/MemberMange/PartyList'
 import StudySetting from '../pages/DangJian/Study/ProjectSetting/ProjectSetting'
 import ZongZhi from '../pages/ZongZhi/ZongZhi'
+import ZongZhiOrigin from '../pages/ZongZhi/Organization/Organization'
+import ZongZhiSpecial from '../pages/ZongZhi/Special/Special'
 
 Vue.use(Router)
 
@@ -139,6 +141,26 @@ export default new Router({
       meta:{
         showHeader:true
       },
+      children:[
+        {
+          path:'/zongzhi/organ/institution',
+          component:ZongZhiOrigin,
+          meta:{
+            showHeader:true
+          }
+        },
+        {
+          path:'/zongzhi/special/release',
+          component:ZongZhiSpecial,
+          meta:{
+            showHeader:true
+          }
+        },
+        {
+          path:'/zongzhi',
+          redirect: '/zongzhi/organ/institution'
+        }
+      ]
     },
   ]
 })
