@@ -33,47 +33,47 @@
         <el-menu-item index="42">重点青少年2</el-menu-item>
       </el-menu-item-group>
     </el-submenu>
-    <el-submenu index="2">
+    <el-submenu index="5">
       <template slot="title"><i class="iconfont icon-home"></i>两断组织</template>
       <el-menu-item-group>
-        <el-menu-item index="2-1">两断组织1</el-menu-item>
-        <el-menu-item index="2-2">两断组织2</el-menu-item>
+        <el-menu-item index="51">两断组织1</el-menu-item>
+        <el-menu-item index="25">两断组织2</el-menu-item>
       </el-menu-item-group>
     </el-submenu>
-    <el-submenu index="2">
+    <el-submenu index="6">
       <template slot="title"><i class="iconfont icon-home"></i>社会治安</template>
       <el-menu-item-group>
         <el-menu-item index="/zongzhi/socity/important">重点地区排查整治</el-menu-item>
-        <el-menu-item index="2-2">社会治安2</el-menu-item>
-      </el-menu-item-group>
-    </el-submenu>
-    <el-submenu index="2">
-      <template slot="title"><i class="iconfont icon-home"></i>信访管理</template>
-      <el-menu-item-group>
-        <el-menu-item index="2-1">信访管理1</el-menu-item>
-        <el-menu-item index="2-2">信访管理2</el-menu-item>
-      </el-menu-item-group>
-    </el-submenu>
-    <el-submenu index="2">
-      <template slot="title"><i class="iconfont icon-home"></i>事件/矛盾纠纷</template>
-      <el-menu-item-group>
-        <el-menu-item index="2-1">事件/矛盾纠纷1</el-menu-item>
-        <el-menu-item index="2-2">事件/矛盾纠纷2</el-menu-item>
+        <el-menu-item index="62">社会治安2</el-menu-item>
       </el-menu-item-group>
     </el-submenu>
     <el-submenu index="7">
+      <template slot="title"><i class="iconfont icon-home"></i>信访管理</template>
+      <el-menu-item-group>
+        <el-menu-item index="71">信访管理1</el-menu-item>
+        <el-menu-item index="72">信访管理2</el-menu-item>
+      </el-menu-item-group>
+    </el-submenu>
+    <el-submenu index="8">
+      <template slot="title"><i class="iconfont icon-home"></i>事件/矛盾纠纷</template>
+      <el-menu-item-group>
+        <el-menu-item index="81">事件/矛盾纠纷1</el-menu-item>
+        <el-menu-item index="82">事件/矛盾纠纷2</el-menu-item>
+      </el-menu-item-group>
+    </el-submenu>
+    <el-submenu index="9">
       <template slot="title"><i class="iconfont icon-home"></i>校园安全</template>
       <el-menu-item-group>
         <el-menu-item index="/zongzhi/campus/school">学校</el-menu-item>
-        <el-menu-item index="2-2">校园周边重点人员</el-menu-item>
-        <el-menu-item index="2-2">涉及师生安全的案件</el-menu-item>
+        <el-menu-item index="92">校园周边重点人员</el-menu-item>
+        <el-menu-item index="93">涉及师生安全的案件</el-menu-item>
       </el-menu-item-group>
     </el-submenu>
     <el-submenu index="11">
       <template slot="title"><i class="iconfont icon-home"></i>护路护线</template>
       <el-menu-item-group>
         <el-menu-item index="/zongzhi/protect/road">护路护线</el-menu-item>
-        <el-menu-item index="2-2">涉及线、路案(事)件</el-menu-item>
+        <el-menu-item index="94">涉及线、路案(事)件</el-menu-item>
       </el-menu-item-group>
     </el-submenu>
   </el-menu>
