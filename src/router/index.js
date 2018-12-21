@@ -15,6 +15,7 @@ import StudySetting from '../pages/DangJian/Study/ProjectSetting/ProjectSetting'
 import ZongZhi from '../pages/ZongZhi/ZongZhi'
 import ZongZhiOrigin from '../pages/ZongZhi/Organization/Organization'
 import ZongZhiSpecial from '../pages/ZongZhi/Special/Special'
+import ImportantArea from '../pages/ZongZhi/Society/ImportantArea'
 
 Vue.use(Router)
 
@@ -159,6 +160,13 @@ export default new Router({
         {
           path:'/zongzhi',
           redirect: '/zongzhi/organ/institution'
+        },
+        {
+          path: '/zongzhi/socity/important',
+          component: ImportantArea,
+          meta: {
+            showHeader: true
+          },
         }
       ]
     },

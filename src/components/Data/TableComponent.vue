@@ -50,7 +50,7 @@ export default {
 };
 </script>
 
-<style scope>
+<style scoped>
  .el-table th {
   background-color: rgba(17, 38, 109, 0.9);
   color: #fff;

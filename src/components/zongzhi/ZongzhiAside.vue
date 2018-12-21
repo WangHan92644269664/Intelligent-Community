@@ -43,7 +43,7 @@
     <el-submenu index="2">
       <template slot="title"><i class="iconfont icon-home"></i>社会治安</template>
       <el-menu-item-group>
-        <el-menu-item index="2-1">社会治安1</el-menu-item>
+        <el-menu-item index="/zongzhi/socity/important">重点地区排查整治</el-menu-item>
         <el-menu-item index="2-2">社会治安2</el-menu-item>
       </el-menu-item-group>
     </el-submenu>
