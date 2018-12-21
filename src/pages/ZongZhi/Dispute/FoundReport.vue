@@ -12,7 +12,7 @@
 
 <script>
   import ConHeader from '../../../components/ContainerHeader'
-  import ImportMain from '../../../components/zongzhi/SociatyImportMain'
+  import ImportMain from '../../../components/zongzhi/SociatyImportMain.vue'
 
   export default {
     props: {
