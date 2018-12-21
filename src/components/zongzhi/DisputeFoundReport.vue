@@ -1,38 +1,43 @@
 <template>
   <div>
     <el-row class="mainRight">
-      <el-col :span="24" class="borderBottom">重点地区</el-col>
+      <el-col :span="24" class="borderBottom">重点事件列表</el-col>
     </el-row>
     <el-row style="padding-left: 15px;padding-top: 20px;background: #fff;">
       <el-col :span="24" style="text-align: left;">
         <el-form :inline="true" :model="formInline" class="demo-form-inline">
-          <el-form-item label="涉及区域类型:">
-            <el-select v-model="formInline.areaType" placeholder="请选择">
+          <el-form-item label="来源:">
+            <el-select v-model="formInline.from" placeholder="请选择">
               <el-option label="开发区" value="开发区"></el-option>
             </el-select>
           </el-form-item>
+          <el-form-item label="登记时间:">
+            <el-select v-model="formInline.time" placeholder="请选择">
+              <el-option label="2018-9" value="2018-9"></el-option>
+            </el-select>
+          </el-form-item>
+          <el-form-item label>
+            <el-input v-model="formInline.search" value="" placeholder="万能搜索"></el-input>
+          </el-form-item>
           <el-form-item class="search">
             <el-button type="primary" icon="iconfont icon-jinduchaxun" size="small">查询</el-button>
-            <el-button type="primary" size="small" class="iconfont icon-tianjia">添加</el-button>
           </el-form-item>
         </el-form>
       </el-col>
     </el-row>
     <el-table :data="tableData" border>
-      <el-table-column fixed prop="square" sortable label="所属网格" width="120"></el-table-column>
-      <el-table-column prop="id" sortable label="编号" width="120"></el-table-column>
-      <el-table-column prop="problem" label="治安突出问题" width="150"></el-table-column>
-      <el-table-column prop="areaType" label="涉及区域类型" width="200"></el-table-column>
-      <el-table-column prop="cuanTou" label="整治窜头单位" width="200"></el-table-column>
-      <el-table-column prop="join" label="整治参与单位" width="150"></el-table-column>
-      <el-table-column prop="time" label="整改时限" width="120"></el-table-column>
-      <el-table-column prop="status" label="状态" width="200"></el-table-column>
+      <el-table-column fixed prop="square" sortable label="所属网格" width="220"></el-table-column>
+      <el-table-column prop="id" sortable label="登记编号" width="150"></el-table-column>
+      <el-table-column prop="problem" label="事件名称" width="180"></el-table-column>
+      <el-table-column prop="problemFrom" label="来源" width="200"></el-table-column>
+      <el-table-column prop="dengjiTime" label="登记时间" width="200"></el-table-column>
+      <el-table-column prop="problemPeople" label="登记人" width="150"></el-table-column>
+      <el-table-column prop="problemType" label="事件类型" width="220"></el-table-column>
       <el-table-column fixed="right" label="操作" width="350">
         <template slot-scope="scope">
           <el-button @click="handleClick(scope.row)" plain size="small">详情</el-button>
           <el-button @click="handleClick(scope.row)" type="info" size="small">编辑</el-button>
           <el-button type="success" size="small">删除</el-button>
-          <el-button @click="handleClick(scope.row)" plain size="small">居住信息</el-button>
         </template>
       </el-table-column>
     </el-table>
@@ -60,71 +65,30 @@ export default {
   data() {
     return {
       formInline: {
-        areaType: ""
+        from: "",
+        search:"",
+        time:""
       },
       currentPage4: 1,
       tableData: [
         {
-          square: "开发区",
-          id: "2",
-          problem: "抢劫抢夺",
-          areaType: "学校周边",
-          cuanTou: "保安大队",
-          join: "保安大队",
-          time: "20181113",
-          status: "待处理"
+          square: "高新区-天桥办事处",
+          id: "AS00002",
+          problem: "土地使用权纠纷",
+          problemFrom: "群众来访",
+          dengjiTime: "20181117",
+          problemPeople: "超级管理员",
+          problemType: "土地及资产",
         },
-        {
-          square: "天桥办事区",
-          id: "3",
-          problem: "其他",
-          areaType: "交通场站",
-          cuanTou: "保安大队",
-          join: "保安大队",
-          time: "20181112",
-          status: "待处理"
-        },
-        {
-          square: "舜泰办事区",
-          id: "4",
-          problem: "电信诈骗",
-          areaType: "集贸市场",
-          cuanTou: "安保大队",
-          join: "安保大队",
-          time: "20181120",
-          status: "待处理"
-        },
-        {
-          square: "花园路社区",
-          id: "5",
-          problem: "交通秩序混乱",
-          areaType: "重点线路",
-          cuanTou: "安保大队",
-          join: "安保大队",
-          time: "20181120",
-          status: "待处理"
-        },
-        {
-          square: "港西办事处",
-          id: "6",
-          problem: "偷盗机动车",
-          areaType: "学校周边",
-          cuanTou: "安保大队",
-          join: "安保大队",
-          time: "20181119",
-          status: "待处理"
-        },
-        {
-          square: "平西2号网格",
-          id: "1",
-          problem: "入室盗窃",
-          areaType: "交通场站",
-          cuanTou: "",
-          join: "历下区政府",
-          time: "20180920",
-          status: "已处理"
-        }
-      ]
+         {
+          square: "高新区-开发区",
+          id: "AS00001",
+          problem: "下水道井盖丢失",
+          problemFrom: "电话热线",
+          dengjiTime: "20181117",
+          problemPeople: "超级管理员",
+          problemType: "物权相关",
+        }]
     };
   },
   methods: {
