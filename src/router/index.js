@@ -16,6 +16,8 @@ import ZongZhi from '../pages/ZongZhi/ZongZhi'
 import ZongZhiOrigin from '../pages/ZongZhi/Organization/Organization'
 import ZongZhiSpecial from '../pages/ZongZhi/Special/Special'
 import ImportantArea from '../pages/ZongZhi/Society/ImportantArea'
+import ZongZhiSchool from '../pages/ZongZhi/Campus/School'
+import ZongZhiProtect from '../pages/ZongZhi/Protect/ProtectRoad'
 
 Vue.use(Router)
 
@@ -144,6 +146,10 @@ export default new Router({
       },
       children:[
         {
+          path:'/zongzhi',
+          redirect: '/zongzhi/organ/institution'
+        },
+        {
           path:'/zongzhi/organ/institution',
           component:ZongZhiOrigin,
           meta:{
@@ -158,15 +164,25 @@ export default new Router({
           }
         },
         {
-          path:'/zongzhi',
-          redirect: '/zongzhi/organ/institution'
-        },
-        {
           path: '/zongzhi/socity/important',
           component: ImportantArea,
           meta: {
             showHeader: true
           },
+        },
+        {
+          path:'/zongzhi/campus/school',
+          component:ZongZhiSchool,
+          meta:{
+            showHeader:true
+          }
+        },
+        {
+          path:'/zongzhi/protect/road',
+          component:ZongZhiProtect,
+          meta:{
+            showHeader:true
+          }
         }
       ]
     },

@@ -61,17 +61,18 @@
         <el-menu-item index="2-2">事件/矛盾纠纷2</el-menu-item>
       </el-menu-item-group>
     </el-submenu>
-    <el-submenu index="2">
+    <el-submenu index="7">
       <template slot="title"><i class="iconfont icon-home"></i>校园安全</template>
       <el-menu-item-group>
-        <el-menu-item index="2-1">校园安全1</el-menu-item>
-        <el-menu-item index="2-2">校园安全2</el-menu-item>
+        <el-menu-item index="/zongzhi/campus/school">学校</el-menu-item>
+        <el-menu-item index="2-2">校园周边重点人员</el-menu-item>
+        <el-menu-item index="2-2">涉及师生安全的案件</el-menu-item>
       </el-menu-item-group>
     </el-submenu>
-    <el-submenu index="2">
+    <el-submenu index="11">
       <template slot="title"><i class="iconfont icon-home"></i>护路护线</template>
       <el-menu-item-group>
-        <el-menu-item index="2-1">护路护线</el-menu-item>
+        <el-menu-item index="/zongzhi/protect/road">护路护线</el-menu-item>
         <el-menu-item index="2-2">涉及线、路案(事)件</el-menu-item>
       </el-menu-item-group>
     </el-submenu>
