@@ -4,7 +4,7 @@
       <ConHeader :title="title"></ConHeader>
     </el-header>
     <el-main>
-      <ImportMain></ImportMain>
+      <FoundReportMain></FoundReportMain>
     </el-main>
   </el-container>
 
@@ -12,7 +12,7 @@
 
 <script>
   import ConHeader from '../../../components/ContainerHeader'
-  import ImportMain from '../../../components/zongzhi/SociatyImportMain.vue'
+  import FoundReportMain from '../../../components/zongzhi/DisputeFoundReport.vue'
 
   export default {
     props: {
@@ -20,7 +20,7 @@
     },
     components: {
       ConHeader,
-      ImportMain
+      FoundReportMain
     },
     data() {
       return {
