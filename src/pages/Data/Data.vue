@@ -24,7 +24,7 @@
         <ul class="bili">
           <li>
             <div class="bili-div bili-left">
-              <i style class="icon iconfont icon-xingbie-nan"></i>
+              <i style class="icon iconfont icon-iconcle07"></i>
             </div>
             <div class="bili-div bili-right">男性比例
               <br>
@@ -33,7 +33,7 @@
           </li>
           <li>
             <div class="bili-div bili-left1">
-              <i style class="icon iconfont icon-xingbie-nv1"></i>
+              <i style class="icon iconfont icon-iconxingbie08"></i>
             </div>
             <div class="bili-div bili-right1">女性比例
               <br>
@@ -76,7 +76,7 @@
         <div class="main-content-data" style="height:25%;">
           <el-col class="data-common" :span="4">
             <div class="data-common-div data-left">
-              <i class="icon iconfont icon-shujuyuanzongshu"></i>
+              <i class="icon iconfont icon-tubiao_huabanfuben"></i>
             </div>
             <div class="data-common-div data-right">总人数
               <br>
@@ -94,7 +94,7 @@
           </el-col>
           <el-col class="data-common" :span="4">
             <div class="data-common-div data-left">
-              <i class="icon iconfont icon-bujian"></i>
+              <i class="icon iconfont  icon-bujian"></i>
             </div>
             <div class="data-common-div data-right">部件
               <br>
@@ -103,7 +103,7 @@
           </el-col>
           <el-col class="data-common" :span="4">
             <div class="data-common-div data-left">
-              <i class="icon iconfont icon-ren"></i>
+              <i class="icon iconfont  icon-ren"></i>
             </div>
             <div class="data-common-div data-right">走访
               <br>
@@ -112,7 +112,7 @@
           </el-col>
           <el-col class="data-common" :span="4">
             <div class="data-common-div data-left">
-              <i class="icon iconfont icon-shijian"></i>
+              <i class="icon iconfont icon-shi-jian-fen-xi"></i>
             </div>
             <div class="data-common-div data-right">事件
               <br>
