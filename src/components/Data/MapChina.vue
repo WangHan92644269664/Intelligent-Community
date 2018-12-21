@@ -55,7 +55,7 @@ export default {
 
         series: [
           {
-            name: "王者荣耀",
+            name: "类型一",
             type: "map",
             mapType: "china",
             roam: true,

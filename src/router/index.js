@@ -7,6 +7,7 @@ import Working from '../pages/Working/Working'
 import WorkingPlan from '../pages/Working/Plan/PlanMy'
 import WorkingNoticeMange from '../pages/Working/Notice/NoticeMange'
 import Data from '../pages/Data/Data'
+import Gis from '../pages/GIS/GIS'
 
 Vue.use(Router)
 
@@ -15,6 +16,10 @@ export default new Router({
     {
       path:'/data',
       component:Data
+    },
+    {
+      path:'/gis',
+      component:Gis
     },
     {
       path:'/zhengwu',
