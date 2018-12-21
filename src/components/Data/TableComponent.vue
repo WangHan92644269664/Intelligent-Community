@@ -50,12 +50,28 @@ export default {
 };
 </script>
 
-<style scoped>
-.chartHeight {
-  height: 100%;
+<style scope>
+ .el-table th {
+  background-color: rgba(17, 38, 109, 0.9);
+  color: #fff;
+  height: 30px;
 }
- .el-table th{
- background-color: red !important;
+.el-table tr {
+  background-color: rgba(4, 11, 53, 0.9);
+}
+.el-table--enable-row-hover .el-table__body tr:hover>td {
+  background-color: rgba(4, 11, 53, 0.9);
+}
+tbody .el-table_1_column_1 .cell {
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 100px;
+  color: #fff;
+  text-align: center;
+  background: #ff7602;
+}
+.el-table td, .el-table th.is-leaf{
+    border-bottom:1px solid #262b51;
 }
 
 </style>
