@@ -8,6 +8,10 @@ import WorkingPlan from '../pages/Working/Plan/PlanMy'
 import WorkingNoticeMange from '../pages/Working/Notice/NoticeMange'
 import Data from '../pages/Data/Data'
 import Gis from '../pages/GIS/GIS'
+import Dangjian from '../pages/DangJian/DangJian'
+import Organization from '../pages/DangJian/Activity/Three/Organization'
+import BuildingPeople from '../pages/DangJian/Building/MemberMange/PartyList'
+import StudySetting from '../pages/DangJian/Study/ProjectSetting/ProjectSetting'
 
 Vue.use(Router)
 
@@ -68,6 +72,29 @@ export default new Router({
           redirect:'/working/plan'
         }
       ]
+    },
+    {
+      path: '/dangjian',
+      component: Dangjian,
+      children: [
+        {
+          path:'/dangjian/activity/three/origan',
+          component:Organization
+        },
+        {
+          path:'/dangjian/building/people/list',
+          component:BuildingPeople
+        },
+        {
+          path:'/dangjian/study/setting',
+          component:StudySetting
+        },
+        {
+          path:'/dangjian',
+          redirect: '/dangjian/activity/three/origan'
+        }
+      ],
+
     }
   ]
 })
