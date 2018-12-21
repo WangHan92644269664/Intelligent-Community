@@ -57,8 +57,13 @@
     <el-submenu index="8">
       <template slot="title"><i class="iconfont icon-home"></i>事件/矛盾纠纷</template>
       <el-menu-item-group>
+<<<<<<< HEAD
         <el-menu-item index="81">事件/矛盾纠纷1</el-menu-item>
         <el-menu-item index="82">事件/矛盾纠纷2</el-menu-item>
+=======
+        <el-menu-item index="/zongzhi/dispute/found">发现上报</el-menu-item>
+        <el-menu-item index="2-2">事件/矛盾纠纷2</el-menu-item>
+>>>>>>> 2926261006599712c65928fea2c7fb6a1e60c3d8
       </el-menu-item-group>
     </el-submenu>
     <el-submenu index="9">

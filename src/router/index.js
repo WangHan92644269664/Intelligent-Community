@@ -18,6 +18,7 @@ import ZongZhiSpecial from '../pages/ZongZhi/Special/Special'
 import ImportantArea from '../pages/ZongZhi/Society/ImportantArea'
 import ZongZhiSchool from '../pages/ZongZhi/Campus/School'
 import ZongZhiProtect from '../pages/ZongZhi/Protect/ProtectRoad'
+import DisputeFoundReport from '../pages/ZongZhi/Dispute/FoundReport'
 
 Vue.use(Router)
 
@@ -166,6 +167,13 @@ export default new Router({
         {
           path: '/zongzhi/socity/important',
           component: ImportantArea,
+          meta: {
+            showHeader: true
+          }
+        },
+        {
+          path: '/zongzhi/dispute/found',
+          component: DisputeFoundReport,
           meta: {
             showHeader: true
           },
