@@ -74,60 +74,62 @@
           <mapChina/>
         </div>
         <div class="main-content-data" style="height:25%;">
-          <el-col class="data-common" :span="4">
-            <div class="data-common-div data-left">
-              <i class="icon iconfont icon-tubiao_huabanfuben"></i>
-            </div>
-            <div class="data-common-div data-right">总人数
-              <br>
-              <span>1008人</span>
-            </div>
-          </el-col>
-          <el-col class="data-common" :span="4">
-            <div class="data-common-div data-left">
-              <i class="icon iconfont icon-jianzhu"></i>
-            </div>
-            <div class="data-common-div data-right">建筑物
-              <br>
-              <span>20栋</span>
-            </div>
-          </el-col>
-          <el-col class="data-common" :span="4">
-            <div class="data-common-div data-left">
-              <i class="icon iconfont  icon-bujian"></i>
-            </div>
-            <div class="data-common-div data-right">部件
-              <br>
-              <span>10件</span>
-            </div>
-          </el-col>
-          <el-col class="data-common" :span="4">
-            <div class="data-common-div data-left">
-              <i class="icon iconfont  icon-ren"></i>
-            </div>
-            <div class="data-common-div data-right">走访
-              <br>
-              <span>10件</span>
-            </div>
-          </el-col>
-          <el-col class="data-common" :span="4">
-            <div class="data-common-div data-left">
-              <i class="icon iconfont icon-shi-jian-fen-xi"></i>
-            </div>
-            <div class="data-common-div data-right">事件
-              <br>
-              <span>15件</span>
-            </div>
-          </el-col>
-          <el-col class="data-common" :span="4">
-            <div class="data-common-div data-left">
-              <i class="icon iconfont icon-zuzhi"></i>
-            </div>
-            <div class="data-common-div data-right">组织
-              <br>
-              <span>12个</span>
-            </div>
-          </el-col>
+          <el-row class="data-row">
+            <el-col class="data-common" :span="4">
+              <div class="data-common-div data-left">
+                <i class="icon iconfont icon-tubiao_huabanfuben"></i>
+              </div>
+              <div class="data-common-div data-right">总人数
+                <br>
+                <span>1008人</span>
+              </div>
+            </el-col>
+            <el-col class="data-common" :span="4">
+              <div class="data-common-div data-left">
+                <i class="icon iconfont icon-jianzhu"></i>
+              </div>
+              <div class="data-common-div data-right">建筑物
+                <br>
+                <span>20栋</span>
+              </div>
+            </el-col>
+            <el-col class="data-common" :span="4">
+              <div class="data-common-div data-left">
+                <i class="icon iconfont icon-bujian"></i>
+              </div>
+              <div class="data-common-div data-right">部件
+                <br>
+                <span>10件</span>
+              </div>
+            </el-col>
+            <el-col class="data-common" :span="4">
+              <div class="data-common-div data-left">
+                <i class="icon iconfont icon-ren"></i>
+              </div>
+              <div class="data-common-div data-right">走访
+                <br>
+                <span>10件</span>
+              </div>
+            </el-col>
+            <el-col class="data-common" :span="4">
+              <div class="data-common-div data-left">
+                <i class="icon iconfont icon-shi-jian-fen-xi"></i>
+              </div>
+              <div class="data-common-div data-right">事件
+                <br>
+                <span>15件</span>
+              </div>
+            </el-col>
+            <el-col class="data-common" :span="4">
+              <div class="data-common-div data-left">
+                <i class="icon iconfont icon-zuzhi"></i>
+              </div>
+              <div class="data-common-div data-right">组织
+                <br>
+                <span>12个</span>
+              </div>
+            </el-col>
+          </el-row>
         </div>
         <div class="chart-common chart-4">
           <EchartsConponent
@@ -261,12 +263,12 @@ ul {
   height: 40px;
   text-align: right;
   /* padding-left: 55%; */
-  padding: 0 0 0 55%;
+  padding: 0 0 0 46%;
 }
 .top-link-right li {
   float: left;
-  padding: 0 4%;
-  margin-right:2%;
+  padding: 0 6%;
+  margin-right: 4%;
   line-height: 40px;
   background: rgba(24, 39, 76, 0.8);
 }
@@ -322,7 +324,7 @@ ul {
 }
 .main-content-data {
   background: rgba(4, 11, 53, 0.5);
-  padding: 8% 5%;
+  position: relative;
 }
 .data-common {
   margin: 0 auto;
@@ -345,6 +347,14 @@ ul {
   font-size: 20px;
   color: #f5af19;
 }
-
+.data-row {
+  width: 90%;
+  height: 40%;
+  /* background: #30e4f6; */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 </style>
 

@@ -24,7 +24,7 @@
     },
     data() {
       return {
-        title:'重点地区排查整治'
+        title:'发现上报'
       }
     },
     methods: {

@@ -13,7 +13,7 @@
           </el-form-item>
           <el-form-item class="search">
             <el-button type="primary" icon="iconfont icon-jinduchaxun" size="small">查询</el-button>
-            <el-button type="primary" size="small" class="iconfont icon-tianjia">添加</el-button>
+            <el-button type="primary" icon="iconfont icon-tianjia" size="small">添加</el-button>
           </el-form-item>
         </el-form>
       </el-col>
