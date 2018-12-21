@@ -12,6 +12,7 @@ import Dangjian from '../pages/DangJian/DangJian'
 import Organization from '../pages/DangJian/Activity/Three/Organization'
 import BuildingPeople from '../pages/DangJian/Building/MemberMange/PartyList'
 import StudySetting from '../pages/DangJian/Study/ProjectSetting/ProjectSetting'
+import ZongZhi from '../pages/ZongZhi/ZongZhi'
 
 Vue.use(Router)
 
@@ -28,18 +29,30 @@ export default new Router({
     {
       path:'/zhengwu',
       component:ZhengWu,
+      meta:{
+        showHeader:true
+      },
       children:[
         {
           path:'/zhengwu/three',
-          component:Three
+          component:Three,
+          meta:{
+            showHeader:true
+          },
         },
         {
           path:'/zhengwu/poverty',
           component:ProvertyPeople,
+          meta:{
+            showHeader:true
+          },
           children:[
             {
               path:'/zhengwu/poverty/people',
-              component:ProvertyPeople
+              component:ProvertyPeople,
+              meta:{
+                showHeader:true
+              },
             },
           ]
         },
@@ -52,20 +65,32 @@ export default new Router({
     {
       path:'/working',
       component:Working,
+      meta:{
+        showHeader:true
+      },
       children:[
         {
           path:'/working/plan',
           component:WorkingPlan,
+          meta:{
+            showHeader:true
+          },
           children:[
             {
               path:'/working/plan/my',
               component:WorkingPlan,
+              meta:{
+                showHeader:true
+              },
             },
           ]
         },
         {
           path:'/working/notice',
           component:WorkingNoticeMange,
+          meta:{
+            showHeader:true
+          },
         },
         {
           path:'/working',
@@ -76,18 +101,30 @@ export default new Router({
     {
       path: '/dangjian',
       component: Dangjian,
+      meta:{
+        showHeader:true
+      },
       children: [
         {
           path:'/dangjian/activity/three/origan',
-          component:Organization
+          component:Organization,
+          meta:{
+            showHeader:true
+          },
         },
         {
           path:'/dangjian/building/people/list',
-          component:BuildingPeople
+          component:BuildingPeople,
+          meta:{
+            showHeader:true
+          },
         },
         {
           path:'/dangjian/study/setting',
-          component:StudySetting
+          component:StudySetting,
+          meta:{
+            showHeader:true
+          },
         },
         {
           path:'/dangjian',
@@ -95,6 +132,13 @@ export default new Router({
         }
       ],
 
-    }
+    },
+    {
+      path:'/zongzhi',
+      component:ZongZhi,
+      meta:{
+        showHeader:true
+      },
+    },
   ]
 })

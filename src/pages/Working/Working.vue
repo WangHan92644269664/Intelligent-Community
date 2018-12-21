@@ -16,7 +16,6 @@
 
   import WorkingAside from '../../components/working/WorkingAside'
   export default {
-    name: "ZongZhi",
     data() {
       return {
       }
