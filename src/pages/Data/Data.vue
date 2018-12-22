@@ -261,20 +261,22 @@ ul {
   border-top-left-radius: 20px;
 }
 .top-link-right {
+  float:right;
   color: #fff;
   text-align: center;
   height: 40px;
   text-align: right;
-  padding: 0 0 0 46%;
+
 }
 .top-link-right li {
-  float: left;
+  /* float: left; */
+  display:inline-block;
   width:150px;
   text-align: center;
-  margin-right: 4%;
   line-height: 40px;
   background: rgba(24, 39, 76, 0.8);
   border-top-left-radius: 20px;
+  margin-right:20px;
 }
 .main-content {
   height: calc(100% - 122px);
