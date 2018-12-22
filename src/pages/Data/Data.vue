@@ -70,7 +70,7 @@
         </div>
       </el-col>
       <el-col class="main-content" :span="10">
-        <div class="mapChart" style="height:55%;">
+        <div class="mapChart" style="height:52.5%;">
           <mapChina/>
         </div>
         <div class="main-content-data" style="height:25%;">
@@ -143,7 +143,7 @@
       </el-col>
       <el-col class="main-content" :span="7">
         <div class="gonggao" style="height:47%;">
-          
+          <Table/>
         </div>
         <div class="chart-common chart-5">
           <Pie/>
@@ -165,7 +165,7 @@
 <script>
 import EchartsConponent from "../../components/Data/EchartsComponent";
 import MapChina from "../../components/Data/MapChina";
-
+import Table from "../../components/Data/TableComponent";
 import Pie from "../../components/Data/PieCompontent";
 export default {
   name: "Data",
@@ -196,10 +196,10 @@ export default {
       chartYdata5: [10, 10, 10],
       chartTitle5: "特殊人员分布",
       yName5: "(数量)",
-      xName5: "(类型)",
+      xName5: "(类型)"
     };
   },
-  components: { EchartsConponent, MapChina, Pie },
+  components: { EchartsConponent, MapChina, Table, Pie },
   mounted() {
     var _this = this;
     //页面加载时赋值id全屏高度
@@ -237,6 +237,7 @@ ul {
   width: 100%;
   background: url("../../assets/images/data/bg.png") no-repeat;
   background-size: 100% 100%;
+  overflow: hidden;
 }
 .title-h2 {
   color: #fff;
@@ -254,30 +255,38 @@ ul {
   margin-right: 2%;
   height: 40px;
   line-height: 40px;
-  padding: 0 4%;
+  width:150px;
+  text-align: center;
   background: rgba(24, 39, 76, 0.8);
+  border-top-left-radius: 20px;
 }
 .top-link-right {
   color: #fff;
   text-align: center;
   height: 40px;
   text-align: right;
-  /* padding-left: 55%; */
   padding: 0 0 0 46%;
 }
 .top-link-right li {
   float: left;
-  padding: 0 6%;
+  width:150px;
+  text-align: center;
   margin-right: 4%;
   line-height: 40px;
   background: rgba(24, 39, 76, 0.8);
+  border-top-left-radius: 20px;
 }
 .main-content {
   height: calc(100% - 122px);
 }
 .bili {
-  margin-top: 2%;
-  height: 10%;
+  height:15%;
+  background:#040b35;
+  width:80%;
+  margin:0 auto;
+  padding:3% 0;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 .bili li {
   color: #30e4f6;
@@ -289,7 +298,10 @@ ul {
   font-size: 30px;
 }
 .chart-common {
-  height: 33%;
+  height: 31%;
+  background:rgba(4,11,53,.6);
+  width:90%;
+  margin:1% auto;
 }
 .bili-div {
   width: 50%;
@@ -301,7 +313,7 @@ ul {
 }
 .bili-left i,
 .bili-left1 i {
-  font-size: 30px;
+  font-size: 40px;
 }
 .bili-right {
   text-align: left;
@@ -318,6 +330,11 @@ ul {
 }
 .chart-common div {
   height: 100%;
+  margin-bottom: 1%;
+}
+.mapChart{
+   background: rgba(4, 11, 53, 0.5);
+   margin-bottom:1%;
 }
 .mapChart div {
   height: 100%;
@@ -334,6 +351,9 @@ ul {
 .data-common-div {
   float: left;
   text-align: center;
+}
+.chart-4{
+  width:100%;
 }
 .data-left i {
   font-size: 30px;
@@ -355,6 +375,13 @@ ul {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+/* 右侧公告 */
+.gonggao{
+  background: rgba(4,11,53,.6);
+  width:90%;
+  margin:0 auto;
+  position: relative;
 }
 </style>
 

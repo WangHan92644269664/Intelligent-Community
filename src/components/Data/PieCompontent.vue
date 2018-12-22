@@ -7,7 +7,6 @@
 <script>
 import echarts from "echarts";
 export default {
-  name: "EchartsComponents",
   props: {},
   data() {
     return {
@@ -30,7 +29,8 @@ export default {
             color: "#feffff",
             fontSize: "18"
           },
-          x: "left"
+          x: "left",
+          padding:[20,0,0,30]
         },
         tooltip: {
           trigger: "item",
@@ -86,5 +86,4 @@ export default {
 .chartHeight {
   height: 100%;
 }
-
 </style>
