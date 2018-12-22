@@ -12,21 +12,21 @@
         <el-menu-item index="/index" ><i class="iconfont icon-guohui"></i> 智慧街道云平台</el-menu-item>
         <el-menu-item index="/gis" class="left">GIS</el-menu-item>
         <el-menu-item index="/data">大数据</el-menu-item>
-        <el-menu-item index="/terminal">智能终端</el-menu-item>
-        <el-menu-item index="/grid">网格化</el-menu-item>
+        <el-menu-item index="/#3">智能终端</el-menu-item>
+        <el-menu-item index="/#4">网格化</el-menu-item>
         <el-menu-item index="/zongzhi">综治</el-menu-item>
         <el-menu-item index="/dangjian">党建</el-menu-item>
         <el-menu-item index="/zhengwu">政务</el-menu-item>
-        <el-menu-item index="/working">工作</el-menu-item>
-        <el-menu-item index="/system">系统</el-menu-item>
-        <el-menu-item index="/inform"><i class="iconfont icon-huiyitongzhi"></i></el-menu-item>
-        <el-menu-item index="/phone"><i class="iconfont icon-phone"></i></el-menu-item>
+        <el-menu-item index="/working" >工作</el-menu-item>
+        <el-menu-item index="/#2">系统</el-menu-item>
+        <el-menu-item index="/#"><i class="iconfont icon-huiyitongzhi"></i></el-menu-item>
+        <el-menu-item index="/#1"><i class="iconfont icon-phone"></i></el-menu-item>
         <el-submenu index="/admin">
           <template slot="title">超级管理员</template>
           <el-menu-item index="/admin1">管理员1</el-menu-item>
           <el-menu-item index="/admin2">管理员1</el-menu-item>
         </el-submenu>
-        <el-menu-item index="/more"><i class="iconfont icon-ellipsis"></i></el-menu-item>
+        <el-menu-item index="/#5"><i class="iconfont icon-ellipsis"></i></el-menu-item>
       </el-menu>
     </el-header>
   </el-container>
@@ -37,14 +37,14 @@
     name: "Header",
     data() {
       return {
-        activeIndex: '1',
+        activeIndex: '/working',
       };
     },
     methods: {
       handleSelect(key, keyPath) {
         console.log(key, keyPath);
       }
-    }
+    },
   }
 </script>
 
