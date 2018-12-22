@@ -25,13 +25,6 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path:'/',
-      component:ZongZhi,
-      meta:{
-        showHeader:true
-      },
-    },
-    {
       path:'/data',
       component:Data
     },
