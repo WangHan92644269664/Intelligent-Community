@@ -112,7 +112,7 @@
         tableData: [
           {
           id: '6',
-          name: require('./images/timg.jpg'),
+          name: require('../images/timg.jpg'),
           title: '为争高通订单 三星与台积电开打78347834',
           people: '超级管理员',
           address: '上海市普陀区金沙江路 1518 弄',
@@ -120,7 +120,7 @@
           zip: 200333
         }, {
           id: '5',
-          name: require('./images/timg.jpg'),
+          name: require('../images/timg.jpg'),
           title: '政协系统党建工作怎么做？',
           people: '超级管理员',
           address: '上海市普陀区金沙江路 1518 弄',
@@ -128,7 +128,7 @@
           zip: 200333
         }, {
           id: '4',
-          name: require('./images/timg.jpg'),
+          name: require('../images/timg.jpg'),
           title: '打造阳光局务 加强民主监督',
           people: '超级管理员',
           address: '上海市普陀区金沙江路 1518 弄',
@@ -136,7 +136,7 @@
           zip: 200333
         }, {
           id: '3',
-          name: require('./images/timg.jpg'),
+          name: require('../images/timg.jpg'),
           title: '新知新觉:激发创新型科技人才',
           people: '超级管理员',
           address: '上海市普陀区金沙江路 1518 弄',
@@ -145,7 +145,7 @@
         },
           {
             id: '2',
-            name: require('./images/timg.jpg'),
+            name: require('../images/timg.jpg'),
             title: '实事求是,用好监督执纪利剑',
             people: '超级管理员',
             address: '上海市普陀区金沙江路 1518 弄',
@@ -154,7 +154,7 @@
           },
           {
             id: '1',
-            name: require('./images/timg.jpg'),
+            name: require('../images/timg.jpg'),
             title: '三注重抓好"三务"公开工作',
             people: '超级管理员',
             address: '上海市普陀区金沙江路 1518 弄',

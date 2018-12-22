@@ -1,5 +1,5 @@
 <template>
-  <el-menu  class="submenu" router>
+  <el-menu  class="submenu"   :default-active="activeIndex" router>
     <el-menu-item index="#" class="leftTitle">工作</el-menu-item>
     <el-submenu index="1">
       <template slot="title"><i class="iconfont icon-home"></i>日志管理</template>
@@ -40,8 +40,10 @@
 <script>
     export default {
         name: "ContainerAside",
-      methods:{
-
+      data(){
+          return {
+            activeIndex:'/working/plan/my'
+          }
       }
     }
 </script>
@@ -60,6 +62,12 @@
     color:#fff;
     text-align: center!important;
     border:none!important;
+  }
+  .el-menu-item.is-active {
+    color: #1951C1;
+    background: #EBF0FA;
+    font-weight: bolder;
+    border-left: 2px solid #1951C1;
   }
   .el-menu-item,.el-submenu__title{
     color: #444;

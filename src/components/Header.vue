@@ -61,13 +61,15 @@
     border-bottom: none !important;
   }
 
-  .el-menu--horizontal > .el-menu-item.is-active{
+  .el-menu--horizontal > .el-menu-item.is-active {
     border-bottom: none;
     background: #1951C1 !important;
   }
+
   .left {
-    margin-left: 250px;
+    /*margin-left: 250px;*/
   }
+
   .iconfont {
     color: #fff;
     font-size: 20px;

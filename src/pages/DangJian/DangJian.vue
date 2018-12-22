@@ -1,7 +1,7 @@
 <template>
   <el-container style="height: 752px;margin-top: 10px;">
     <!--主体内容的侧边栏-->
-    <el-aside width="200px">
+    <el-aside width="200px" style="height: 100%">
       <!--左侧侧边栏组件-->
       <DangjianAside></DangjianAside>
     </el-aside>

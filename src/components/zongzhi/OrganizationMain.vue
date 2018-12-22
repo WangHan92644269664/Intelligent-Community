@@ -13,8 +13,8 @@
             <el-input v-model="formInline.id"></el-input>
           </el-form-item>
           <el-form-item class="search">
-            <el-button type="primary" icon="iconfont icon-jinduchaxun">查询</el-button>
-            <el-button type="primary">重置</el-button>
+            <el-button type="primary" icon="iconfont icon-jinduchaxun" size="small">查询</el-button>
+            <el-button type="primary" size="medium">重置</el-button>
           </el-form-item>
         </el-form>
       </el-col>
@@ -87,7 +87,7 @@
             :page-size="10"
             :page-count="2"
             layout="prev, pager,next, jumper, total, sizes"
-            :total="12">
+            :total="3">
           </el-pagination>
         </div>
       </el-col>

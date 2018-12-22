@@ -21,8 +21,8 @@
           </el-form-item>
           <el-form-item class="search">
             <el-button type="primary" icon="iconfont icon-jinduchaxun" size="small">查询</el-button>
-            <el-button type="primary" size="small" class="iconfont icon-tianjia">添加</el-button>
-            <el-button type="primary" size="small" class="iconfont">重置</el-button>
+            <el-button type="primary" size="medium" class="iconfont icon-tianjia">添加</el-button>
+            <el-button type="primary" size="medium" class="iconfont">重置</el-button>
           </el-form-item>
         </el-form>
       </el-col>
@@ -77,7 +77,7 @@
       <el-table-column
         fixed="right"
         label="操作"
-        width="220">
+        width="300">
         <template slot-scope="scope">
           <el-button @click="handleClick(scope.row)" plain size="small">详情</el-button>
           <el-button @click="handleClick(scope.row)" type="info" size="small">编辑</el-button>
@@ -93,7 +93,7 @@
             @current-change="handleCurrentChange"
             :current-page="currentPage4"
             :page-sizes="[1,2,3,4,5,6,7,8,9,10,11,12]"
-            :page-size="10"
+            :page-size="6"
             :page-count="2"
             layout="prev, pager,next, jumper, total, sizes"
             :total="12">

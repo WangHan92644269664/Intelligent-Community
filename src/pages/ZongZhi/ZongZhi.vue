@@ -1,7 +1,7 @@
 <template>
   <el-container style="margin-top: 10px;">
     <!--主体内容的侧边栏-->
-    <el-aside width="210px">
+    <el-aside width="210px" style="height: 100%">
       <!--左侧侧边栏组件-->
       <ZongzhiAside></ZongzhiAside>
     </el-aside>

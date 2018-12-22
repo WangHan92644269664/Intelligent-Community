@@ -40,7 +40,7 @@
           </el-form-item>
           <el-form-item class="search">
             <el-button type="primary" icon="iconfont icon-jinduchaxun" size="small">查询</el-button>
-            <el-button type="primary" size="small" class="iconfont icon-tianjia">添加</el-button>
+            <el-button type="primary" size="medium" class="iconfont icon-tianjia">添加</el-button>
           </el-form-item>
         </el-form>
       </el-col>
@@ -141,9 +141,9 @@
           date2: '',
           name: '',
         },
-        states: [],
         currentPage4: 1,
-        tableData: [{
+        tableData: [
+          {
           id: '11',
           name: '护路护线功能模块开发',
           people: '超级管理员',

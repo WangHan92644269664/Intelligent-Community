@@ -1,5 +1,5 @@
 <template>
-    <el-col :span="3" class="mainLeft">
+    <el-col :span="3" class="mainLeft" style="height: 100%">
       <el-row class="borderBottom">
         <el-col :span="21">{{name}}</el-col>
         <el-col :span="2" style="color:#FF6400;"><i class="iconfont icon-tianjia"></i></el-col>
@@ -34,7 +34,7 @@
 <style scoped>
   .mainLeft {
     background: #fff;
-    height: 530px;
+    height: 600px;
     border-right: 10px solid #f0f0f0;
     padding: 15px 0 !important;
   }
