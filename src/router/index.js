@@ -201,5 +201,9 @@ export default new Router({
         }
       ]
     },
+    {
+      path:'/',
+      redirect:'/working/plan'
+    }
   ]
 })
