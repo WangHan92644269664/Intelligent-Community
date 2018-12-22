@@ -143,7 +143,7 @@
       </el-col>
       <el-col class="main-content" :span="7">
         <div class="gonggao" style="height:47%;">
-          <Table/>
+          
         </div>
         <div class="chart-common chart-5">
           <Pie/>
@@ -165,7 +165,7 @@
 <script>
 import EchartsConponent from "../../components/Data/EchartsComponent";
 import MapChina from "../../components/Data/MapChina";
-import Table from "../../components/Data/TableComponent";
+
 import Pie from "../../components/Data/PieCompontent";
 export default {
   name: "Data",
@@ -196,10 +196,10 @@ export default {
       chartYdata5: [10, 10, 10],
       chartTitle5: "特殊人员分布",
       yName5: "(数量)",
-      xName5: "(类型)"
+      xName5: "(类型)",
     };
   },
-  components: { EchartsConponent, MapChina, Table, Pie },
+  components: { EchartsConponent, MapChina, Pie },
   mounted() {
     var _this = this;
     //页面加载时赋值id全屏高度
