@@ -240,13 +240,13 @@
     text-align: center;
   }
   .el-button--info {
-    background: none;
+    background-color: #fff!important;
     border: 1px solid #FF6400 !important;
     color: #FF6400 !important;
   }
 
   .el-button--success {
-    background: none;
+    background-color: #fff!important;
     border: 1px solid #409EFF !important;
     color: #409EFF !important;
   }

@@ -118,13 +118,13 @@ export default {
   text-align: center;
 }
 .el-button--info {
-  background: none;
+  background-color: #fff!important;
   border: 1px solid #ff6400 !important;
   color: #ff6400 !important;
 }
 
 .el-button--success {
-  background: none;
+  background-color: #fff!important;
   border: 1px solid #409eff !important;
   color: #409eff !important;
 }

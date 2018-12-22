@@ -45,6 +45,7 @@
               <el-table-column
                 prop="title"
                 label="文章标题"
+                show-overflow-tooltip
                 width="200" class="hideWord">
               </el-table-column>
               <el-table-column
@@ -60,6 +61,7 @@
               <el-table-column
                 prop="title"
                 label="文章描述"
+                show-overflow-tooltip
                 width="200">
               </el-table-column>
               <el-table-column
@@ -75,7 +77,7 @@
               <el-table-column
                 fixed="right"
                 label="操作"
-                width="220">
+                width="300">
                 <template slot-scope="scope">
                   <el-button @click="handleClick(scope.row)" plain size="small">详情</el-button>
                   <el-button @click="handleClick(scope.row)" type="info" size="small">编辑</el-button>
@@ -195,13 +197,13 @@
   }
 
   .el-button--info {
-    background: none;
+    background-color: #fff!important;
     border: 1px solid #FF6400 !important;
     color: #FF6400 !important;
   }
 
   .el-button--success {
-    background: none;
+    background-color: #fff!important;
     border: 1px solid #409EFF !important;
     color: #409EFF !important;
   }

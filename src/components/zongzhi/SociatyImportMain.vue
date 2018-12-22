@@ -119,7 +119,7 @@ export default {
           id: "1",
           problem: "入室盗窃",
           areaType: "交通场站",
-          cuanTou: "",
+          cuanTou: "安保大队",
           join: "历下区政府",
           time: "20180920",
           status: "已处理"
@@ -154,13 +154,13 @@ export default {
   text-align: center;
 }
 .el-button--info {
-  background: none;
+  background-color: #fff!important;
   border: 1px solid #ff6400 !important;
   color: #ff6400 !important;
 }
 
 .el-button--success {
-  background: none;
+  background-color: #fff!important;
   border: 1px solid #409eff !important;
   color: #409eff !important;
 }

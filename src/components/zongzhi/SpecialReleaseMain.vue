@@ -24,7 +24,6 @@
       border
     >
       <el-table-column
-        fixed
         prop="name"
         label="姓名"
         width="120">
@@ -153,21 +152,19 @@
   }
 </script>
 <style>
-
-
   .el-main .el-table th {
     text-align: center;
     background: rgba(222, 222, 222, .3);
   }
 
   .el-button--info {
-    background: none;
+    background-color: #fff!important;
     border: 1px solid #FF6400 !important;
     color: #FF6400 !important;
   }
 
   .el-button--success {
-    background: none;
+    background-color: #fff!important;
     border: 1px solid #409EFF !important;
     color: #409EFF !important;
   }

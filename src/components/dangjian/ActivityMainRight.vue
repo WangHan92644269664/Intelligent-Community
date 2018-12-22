@@ -41,11 +41,6 @@
         width="120">
       </el-table-column>
       <el-table-column
-        prop="zip"
-        label="邮编"
-        width="120">
-      </el-table-column>
-      <el-table-column
         fixed="right"
         label="操作"
         width="300">
@@ -88,28 +83,24 @@
             meeting: '0/0',
             group: '0/0',
             class: '0/0',
-            zip: 200333
           }, {
             name: '舜泰街道工委',
             big: '0/0',
             meeting: '0/0',
             group: '0/0',
             class: '0/0',
-            zip: 200333
           }, {
             name: '天桥区街道工委',
             big: '0/1',
             meeting: '0/0',
             group: '0/0',
             class: '0/1',
-            zip: 200333
           }, {
             name: '开发区六号党支部',
             big: '0/0',
             meeting: '0/0',
             group: '0/0',
             class: '0/0',
-            zip: 200333
           },
           {
             name: '开发区五号党支部',
@@ -117,7 +108,6 @@
             meeting: '0/0',
             group: '0/0',
             class: '0/0',
-            zip: 200333
           },
           {
             name: '开发区四号党支部',
@@ -125,7 +115,6 @@
             meeting: '0/0',
             group: '0/0',
             class: '0/1',
-            zip: 200333
           },
           {
             name: '开发区三号党支部',
@@ -133,7 +122,6 @@
             meeting: '0/0',
             group: '0/0',
             class: '0/0',
-            zip: 200333
           },
           {
             name: '开发区二号党支部',
@@ -141,7 +129,6 @@
             meeting: '0/0',
             group: '0/0',
             class: '0/1',
-            zip: 200333
           },
           {
             name: '开发区一号党支部',
@@ -149,7 +136,6 @@
             meeting: '0/0',
             group: '0/0',
             class: '0/0',
-            zip: 200333
           },
         ],
         formInline: {
@@ -188,13 +174,13 @@
   }
 
   .el-button--info {
-    background: none;
+    background-color: #fff!important;
     border: 1px solid #FF6400 !important;
     color: #FF6400 !important;
   }
 
   .el-button--success {
-    background: none;
+    background-color: #fff!important;
     border: 1px solid #409EFF !important;
     color: #409EFF !important;
   }
