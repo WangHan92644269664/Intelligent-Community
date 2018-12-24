@@ -81,7 +81,7 @@
               </div>
               <div class="data-common-div data-right">总人数
                 <br>
-                <span>1008人</span>
+                <span>18人</span>
               </div>
             </el-col>
             <el-col class="data-common" :span="4">
@@ -358,19 +358,21 @@ ul {
   width:100%;
 }
 .data-left i {
-  font-size: 30px;
+  font-size: 24px;
   color: #2ed9ec;
 }
 .data-right {
   color: #fff;
   padding-left: 10px;
+  font-size: 14px;
 }
 .data-right span {
   font-size: 20px;
   color: #f5af19;
+  data-right:15px;
 }
 .data-row {
-  width: 90%;
+  width: 96%;
   height: 40%;
   /* background: #30e4f6; */
   position: absolute;

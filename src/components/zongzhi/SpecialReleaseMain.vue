@@ -1,5 +1,5 @@
 <template>
-  <el-col :span="21" class="mainRight">
+  <el-col :span="20" class="mainRight">
     <el-row class="borderBottom">
       <el-col :span="24">员工管理列表</el-col>
     </el-row>

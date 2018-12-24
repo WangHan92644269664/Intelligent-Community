@@ -1,5 +1,5 @@
 <template>
-  <el-col :span="24" class="mainRight">
+  <el-col :span="20" class="mainRight"  style="width:1160px">
     <el-row class="borderBottom">
       <el-col :span="24">{{rightTitle}}</el-col>
     </el-row>

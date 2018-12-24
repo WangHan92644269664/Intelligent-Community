@@ -9,7 +9,7 @@
       </li>
     </ul>
     </div>
-    
+
   </div>
 </template>
 
@@ -92,7 +92,7 @@ li span {
   display: inline-block;
 }
 .report-con{
-  max-height: 260px;
+  max-height: 200px;
   overflow-y: auto;
 }
 .report-data {
@@ -119,23 +119,23 @@ li span {
   width: 14px;
   height: 14px;
 }
- 
+
 ::-webkit-scrollbar-track,
 ::-webkit-scrollbar-thumb {
   border-radius: 999px;
   border: 5px solid transparent;
 }
- 
+
 ::-webkit-scrollbar-track {
   box-shadow: 1px 1px 5px rgba(0,0,0,.2) inset;
 }
- 
+
 ::-webkit-scrollbar-thumb {
   min-height: 20px;
   background-clip: content-box;
   box-shadow: 0 0 0 5px rgba(0,0,0,.2) inset;
 }
- 
+
 ::-webkit-scrollbar-corner {
   background: transparent;
 }

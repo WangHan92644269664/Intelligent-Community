@@ -5,7 +5,7 @@
       <ConHeader :title=title></ConHeader>
     </el-header>
     <el-main>
-      <el-row :gutter="40">
+      <el-row :gutter="40"  style="width:1150px">
         <!--主体内容的中部的侧边栏组件-->
         <ConMainAside :name="name" :data="data"></ConMainAside>
         <!--主体内容的右边的内容组件-->
